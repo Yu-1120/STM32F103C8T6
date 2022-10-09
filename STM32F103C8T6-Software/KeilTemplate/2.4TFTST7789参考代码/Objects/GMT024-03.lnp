@@ -1,0 +1,8 @@
+--cpu Cortex-M3
+".\objects\2.4tft7p.o"
+".\objects\system_stm32f10x.o"
+".\objects\startup_stm32f10x_md.o"
+--strict --scatter ".\Objects\GMT024-03.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\GMT024-03.map" -o .\Objects\GMT024-03.axf

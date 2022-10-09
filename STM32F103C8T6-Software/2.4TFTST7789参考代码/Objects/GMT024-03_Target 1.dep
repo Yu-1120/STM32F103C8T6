@@ -1,0 +1,18 @@
+Dependencies for Project 'GMT024-03', Target 'Target 1': (DO NOT MODIFY !)
+F (.\2.4TFT7P.C)(0x63306BD0)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections-I E:\GitHub\STM32\STM32F103C8T6-Software\2.4TFTST7789参考代码\RTE-I D:\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD-o .\objects\2.4tft7p.o --omf_browse .\objects\2.4tft7p.crf --depend .\objects\2.4tft7p.d)
+I (stm32f10x.h)(0x5825386C)
+I (core_cm3.h)(0x5B617084)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (cmsis_version.h)(0x5B1F3E94)
+I (cmsis_compiler.h)(0x5B5843C6)
+I (cmsis_armcc.h)(0x5B617084)
+I (system_stm32f10x.h)(0x5825386C)
+F (.\system_stm32f10x.c)(0x4CBC5B58)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections-I E:\GitHub\STM32\STM32F103C8T6-Software\2.4TFTST7789参考代码\RTE-I D:\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (stm32f10x.h)(0x5825386C)
+I (core_cm3.h)(0x5B617084)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (cmsis_version.h)(0x5B1F3E94)
+I (cmsis_compiler.h)(0x5B5843C6)
+I (cmsis_armcc.h)(0x5B617084)
+I (system_stm32f10x.h)(0x5825386C)
+F (.\startup_stm32f10x_md.s)(0x5825386C)(--cpu Cortex-M3 -g --apcs=interwork -I E:\GitHub\STM32\STM32F103C8T6-Software\2.4TFTST7789参考代码\RTE-I D:\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
