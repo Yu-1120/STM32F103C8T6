@@ -463,11 +463,11 @@ ARM Macro Assembler    Page 8
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=led\startup_stm32f103xb.d -oled\startup_stm32f103xb.o -IE:\GitHub\
-STM32\STM32F103C8T6-Software\KeilTemplate\LED\MDK-ARM\RTE -ID:\Keil_v5\Arm\Pack
-s\ARM\CMSIS\5.5.1\CMSIS\Core\Include -ID:\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\
-2.3.0\Device\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VER
-SION SETA 514" --predefine="_RTE_ SETA 1" --predefine="STM32F10X_MD SETA 1" --l
-ist=startup_stm32f103xb.lst startup_stm32f103xb.s
+STM32F103C8T6\STM32F103C8T6-Software\KeilTemplate\LED\MDK-ARM\RTE -ID:\Keil_v5\
+Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include -ID:\Keil_v5\Arm\Packs\Keil\STM32F
+1xx_DFP\2.3.0\Device\Include --predefine="__MICROLIB SETA 1" --predefine="__UVI
+SION_VERSION SETA 514" --predefine="_RTE_ SETA 1" --predefine="STM32F10X_MD SET
+A 1" --list=startup_stm32f103xb.lst startup_stm32f103xb.s
 
 
 

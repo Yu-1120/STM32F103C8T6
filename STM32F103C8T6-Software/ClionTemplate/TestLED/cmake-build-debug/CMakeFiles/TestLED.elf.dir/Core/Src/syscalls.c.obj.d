@@ -1,5 +1,5 @@
 CMakeFiles/TestLED.elf.dir/Core/Src/syscalls.c.obj: \
- E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\syscalls.c \
+ E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\syscalls.c \
  d:\gcc-arm-none-eabi\arm-none-eabi\include\sys\stat.h \
  d:\gcc-arm-none-eabi\arm-none-eabi\include\_ansi.h \
  d:\gcc-arm-none-eabi\arm-none-eabi\include\newlib.h \

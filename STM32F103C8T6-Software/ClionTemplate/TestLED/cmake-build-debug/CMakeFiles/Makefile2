@@ -53,10 +53,10 @@ RM = D:\CLion\bin\cmake\win\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED
+CMAKE_SOURCE_DIR = E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug
+CMAKE_BINARY_DIR = E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/TestLED.elf.dir/clean
 CMakeFiles/TestLED.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLED.elf.dir\build.make CMakeFiles/TestLED.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLED.elf.dir\build.make CMakeFiles/TestLED.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target TestLED.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target TestLED.elf"
 .PHONY : CMakeFiles/TestLED.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TestLED.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TestLED.elf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/TestLED.elf.dir/rule
 
 # Convenience name for target.

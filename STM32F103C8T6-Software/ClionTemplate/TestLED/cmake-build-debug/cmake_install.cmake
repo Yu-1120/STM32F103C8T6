@@ -1,4 +1,4 @@
-# Install script for directory: E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/TestLED
+# Install script for directory: E:/GitHub/STM32F103C8T6/STM32F103C8T6-Software/ClionTemplate/TestLED
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/GitHub/STM32F103C8T6/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

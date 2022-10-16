@@ -52,10 +52,10 @@ RM = D:\CLion\bin\cmake\win\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED
+CMAKE_SOURCE_DIR = E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug
+CMAKE_BINARY_DIR = E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TestLED.elf.dir/depend.make
@@ -71,281 +71,281 @@ include CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
 CMakeFiles/TestLED.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TestLED.elf.dir/Core/Src/gpio.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\TestLED.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\TestLED.elf.dir\Core\Src\gpio.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TestLED.elf.dir/Core/Src/gpio.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\TestLED.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\TestLED.elf.dir\Core\Src\gpio.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\gpio.c
 
 CMakeFiles/TestLED.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Core/Src/gpio.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\gpio.c > CMakeFiles\TestLED.elf.dir\Core\Src\gpio.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\gpio.c > CMakeFiles\TestLED.elf.dir\Core\Src\gpio.c.i
 
 CMakeFiles/TestLED.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Core/Src/gpio.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\gpio.c -o CMakeFiles\TestLED.elf.dir\Core\Src\gpio.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\gpio.c -o CMakeFiles\TestLED.elf.dir\Core\Src\gpio.c.s
 
 CMakeFiles/TestLED.elf.dir/Core/Src/main.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
 CMakeFiles/TestLED.elf.dir/Core/Src/main.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TestLED.elf.dir/Core/Src/main.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\TestLED.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\TestLED.elf.dir\Core\Src\main.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TestLED.elf.dir/Core/Src/main.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\TestLED.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\TestLED.elf.dir\Core\Src\main.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\main.c
 
 CMakeFiles/TestLED.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Core/Src/main.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\main.c > CMakeFiles\TestLED.elf.dir\Core\Src\main.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\main.c > CMakeFiles\TestLED.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/TestLED.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Core/Src/main.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\main.c -o CMakeFiles\TestLED.elf.dir\Core\Src\main.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\main.c -o CMakeFiles\TestLED.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Src/stm32f1xx_hal_msp.c
 CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d -o CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\stm32f1xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d -o CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\stm32f1xx_hal_msp.c
 
 CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\stm32f1xx_hal_msp.c > CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_hal_msp.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\stm32f1xx_hal_msp.c > CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_hal_msp.c.i
 
 CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\stm32f1xx_hal_msp.c -o CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_hal_msp.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\stm32f1xx_hal_msp.c -o CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_hal_msp.c.s
 
 CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_it.c.obj: ../Core/Src/stm32f1xx_it.c
 CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_it.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_it.c.obj.d -o CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_it.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\stm32f1xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_it.c.obj.d -o CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_it.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\stm32f1xx_it.c
 
 CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_it.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\stm32f1xx_it.c > CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_it.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\stm32f1xx_it.c > CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_it.c.i
 
 CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Core/Src/stm32f1xx_it.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\stm32f1xx_it.c -o CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_it.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\stm32f1xx_it.c -o CMakeFiles\TestLED.elf.dir\Core\Src\stm32f1xx_it.c.s
 
 CMakeFiles/TestLED.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
 CMakeFiles/TestLED.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/TestLED.elf.dir/Core/Src/syscalls.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\TestLED.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\TestLED.elf.dir\Core\Src\syscalls.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/TestLED.elf.dir/Core/Src/syscalls.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\TestLED.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\TestLED.elf.dir\Core\Src\syscalls.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\syscalls.c
 
 CMakeFiles/TestLED.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Core/Src/syscalls.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\syscalls.c > CMakeFiles\TestLED.elf.dir\Core\Src\syscalls.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\syscalls.c > CMakeFiles\TestLED.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/TestLED.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Core/Src/syscalls.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\syscalls.c -o CMakeFiles\TestLED.elf.dir\Core\Src\syscalls.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\syscalls.c -o CMakeFiles\TestLED.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/TestLED.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Core/Src/system_stm32f1xx.c
 CMakeFiles/TestLED.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/TestLED.elf.dir/Core/Src/system_stm32f1xx.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles\TestLED.elf.dir\Core\Src\system_stm32f1xx.c.obj.d -o CMakeFiles\TestLED.elf.dir\Core\Src\system_stm32f1xx.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\system_stm32f1xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/TestLED.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles\TestLED.elf.dir\Core\Src\system_stm32f1xx.c.obj.d -o CMakeFiles\TestLED.elf.dir\Core\Src\system_stm32f1xx.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\system_stm32f1xx.c
 
 CMakeFiles/TestLED.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Core/Src/system_stm32f1xx.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\system_stm32f1xx.c > CMakeFiles\TestLED.elf.dir\Core\Src\system_stm32f1xx.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\system_stm32f1xx.c > CMakeFiles\TestLED.elf.dir\Core\Src\system_stm32f1xx.c.i
 
 CMakeFiles/TestLED.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Core/Src/system_stm32f1xx.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\system_stm32f1xx.c -o CMakeFiles\TestLED.elf.dir\Core\Src\system_stm32f1xx.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Src\system_stm32f1xx.c -o CMakeFiles\TestLED.elf.dir\Core\Src\system_stm32f1xx.c.s
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.i
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.s
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.i
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.s
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.i
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.s
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.i
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.s
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.i
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.s
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.i
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.s
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.i
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.s
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.i
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.s
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.i
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.s
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.i
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.s
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.i
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.s
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.i
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.s
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/TestLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -MF CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj.d -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c > CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.i
 
 CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c -o CMakeFiles\TestLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.s
 
 CMakeFiles/TestLED.elf.dir/startup/startup_stm32f103xb.s.obj: CMakeFiles/TestLED.elf.dir/flags.make
 CMakeFiles/TestLED.elf.dir/startup/startup_stm32f103xb.s.obj: ../startup/startup_stm32f103xb.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/TestLED.elf.dir/startup/startup_stm32f103xb.s.obj"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\TestLED.elf.dir\startup\startup_stm32f103xb.s.obj -c E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\startup\startup_stm32f103xb.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/TestLED.elf.dir/startup/startup_stm32f103xb.s.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\TestLED.elf.dir\startup\startup_stm32f103xb.s.obj -c E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\startup\startup_stm32f103xb.s
 
 CMakeFiles/TestLED.elf.dir/startup/startup_stm32f103xb.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/TestLED.elf.dir/startup/startup_stm32f103xb.s.i"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\startup\startup_stm32f103xb.s > CMakeFiles\TestLED.elf.dir\startup\startup_stm32f103xb.s.i
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\startup\startup_stm32f103xb.s > CMakeFiles\TestLED.elf.dir\startup\startup_stm32f103xb.s.i
 
 CMakeFiles/TestLED.elf.dir/startup/startup_stm32f103xb.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/TestLED.elf.dir/startup/startup_stm32f103xb.s.s"
-	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\startup\startup_stm32f103xb.s -o CMakeFiles\TestLED.elf.dir\startup\startup_stm32f103xb.s.s
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\startup\startup_stm32f103xb.s -o CMakeFiles\TestLED.elf.dir\startup\startup_stm32f103xb.s.s
 
 # Object files for target TestLED.elf
 TestLED_elf_OBJECTS = \
@@ -395,12 +395,12 @@ TestLED.elf: CMakeFiles/TestLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
 TestLED.elf: CMakeFiles/TestLED.elf.dir/startup/startup_stm32f103xb.s.obj
 TestLED.elf: CMakeFiles/TestLED.elf.dir/build.make
 TestLED.elf: CMakeFiles/TestLED.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable TestLED.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable TestLED.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TestLED.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/TestLED.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/TestLED.bin"
-	arm-none-eabi-objcopy -Oihex E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/TestLED.elf E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/TestLED.hex
-	arm-none-eabi-objcopy -Obinary E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/TestLED.elf E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/TestLED.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/GitHub/STM32F103C8T6/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/TestLED.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/GitHub/STM32F103C8T6/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/TestLED.bin"
+	arm-none-eabi-objcopy -Oihex E:/GitHub/STM32F103C8T6/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/TestLED.elf E:/GitHub/STM32F103C8T6/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/TestLED.hex
+	arm-none-eabi-objcopy -Obinary E:/GitHub/STM32F103C8T6/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/TestLED.elf E:/GitHub/STM32F103C8T6/STM32F103C8T6-Software/ClionTemplate/TestLED/cmake-build-debug/TestLED.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/TestLED.elf.dir/build: TestLED.elf
@@ -411,6 +411,6 @@ CMakeFiles/TestLED.elf.dir/clean:
 .PHONY : CMakeFiles/TestLED.elf.dir/clean
 
 CMakeFiles/TestLED.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug E:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles\TestLED.elf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug E:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\cmake-build-debug\CMakeFiles\TestLED.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TestLED.elf.dir/depend
 

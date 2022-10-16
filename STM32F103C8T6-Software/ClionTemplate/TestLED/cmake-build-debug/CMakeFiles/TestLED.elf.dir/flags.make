@@ -5,13 +5,13 @@
 # compile C with D:/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
 ASM_DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -IE:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Inc -IE:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Inc -IE:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -IE:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\CMSIS\Device\ST\STM32F1xx\Include -IE:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\CMSIS\Include
+ASM_INCLUDES = -IE:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Inc -IE:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Inc -IE:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -IE:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\CMSIS\Device\ST\STM32F1xx\Include -IE:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\CMSIS\Include
 
 ASM_FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
 
 C_DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
 
-C_INCLUDES = -IE:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Inc -IE:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Inc -IE:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -IE:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\CMSIS\Device\ST\STM32F1xx\Include -IE:\GitHub\STM32\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\CMSIS\Include
+C_INCLUDES = -IE:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Core\Inc -IE:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Inc -IE:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -IE:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\CMSIS\Device\ST\STM32F1xx\Include -IE:\GitHub\STM32F103C8T6\STM32F103C8T6-Software\ClionTemplate\TestLED\Drivers\CMSIS\Include
 
 C_FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 
